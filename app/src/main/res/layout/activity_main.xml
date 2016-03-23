@@ -25,111 +25,126 @@
 
     </android.support.design.widget.AppBarLayout>
 
-<!--    <include layout="@layout/title" /> -->
-
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="80dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/title"
-        android:id="@+id/textView"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:textColor="#455A64"
-    />
+        android:layout_height="match_parent">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app1"
-            android:id="@+id/button1"
-            android:background="#FFA726"/>
-    </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/title"
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#455A64"
+                />
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center"
-        android:weightSum="1">
+<!--            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">-->
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app2"
-            android:id="@+id/button2"
-            android:background="#FFA726"/>
-    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center">
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app1"
+                        android:id="@+id/button1"
+                        android:background="#FFA726"/>
+                </TableRow>
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app3"
-            android:id="@+id/button3"
-            android:background="#FFA726"/>
-    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center">
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app2"
+                        android:id="@+id/button2"
+                        android:background="#FFA726"/>
+                </TableRow>
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app4"
-            android:id="@+id/button4"
-            android:background="#FFA726"/>
-    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center">
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app3"
+                        android:id="@+id/button3"
+                        android:background="#FFA726"/>
+                </TableRow>
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app5"
-            android:id="@+id/button5"
-            android:background="#FFA726"/>
-    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.10"
-        android:gravity="center">
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app4"
+                        android:id="@+id/button4"
+                        android:background="#FFA726"/>
+                </TableRow>
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:text="@string/app6"
-            android:id="@+id/button6"
-            android:background="#FFA726"/>
-    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
 
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app5"
+                        android:id="@+id/button5"
+                        android:background="#FFA726"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="65dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="45dp"
+                        android:text="@string/app6"
+                        android:id="@+id/button6"
+                        android:background="#FFA726"/>
+                </TableRow>
+
+            <!--</TableLayout>-->
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
